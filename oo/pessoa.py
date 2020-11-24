@@ -20,6 +20,9 @@ if __name__ == '__main__':
     for filho in karina.filhos:
         print(filho.nome)
     print(karina.filhos)
+    karina.sobrenome = 'Tanimoto' #Criando Atributo Dinâmico
+    print(karina.sobrenome)
+
 
 # Classe vc cria seus tipos personalisados
 
